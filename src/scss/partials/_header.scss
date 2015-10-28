@@ -1,0 +1,50 @@
+
+
+.header{
+	height: 90vh;
+	width: 100%;
+	overflow:hidden;
+	position:relative;
+	z-index: -1;
+
+
+}
+
+.header video {
+	object-fit: cover !important;
+	width: 110%;
+	height: 95vh;
+
+
+	// -webkit-filter:blur(10px);
+	// -ms-filter: blur(10px);
+	// -o-filter: blur(10px);
+	// filter:blur(10px);
+
+  	z-index:-1;
+  	position:fixed;
+
+}
+
+
+.header-nav {
+	position:absolute;
+	bottom: 0vh;
+
+	
+}
+.header-nav h1 {
+	color: white;
+
+}
+
+.header-nav img {
+	position:relative;
+
+}
+
+.hero-h1 {
+  font-size: 10vmin;
+}
+
+
